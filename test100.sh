@@ -1,0 +1,4 @@
+echo Try to run "ARG=("100 random numbers"); ./push-swap $ARG" with 100 random different numbers instead of the tag.
+ARG=("61 2 79 40 22 3 16 37 59 5 73 24 91 1 65 34 98 50 63 17 68 80 82 49 81 72 36 54 56 47 26 86 18 51 19 20 96 99 43 27 57 45 15 48 41 77 6 93 92 89 25 66 53 21 100 76 95 32 75 33 35 13 78 84 23 11 55 10 97 52 64 4 94 90 14 83 42 31 71 62 12 8 60 44 85 46 29 30 38 87 88 58 28 69 74 70 67 7 39 9"); ./push-swap "$ARG"
+echo Try to run "ARG=("100 random numbers"); ./push-swap $ARG | ./checker $ARG" with the same 100 random different numbers as before instead of the tag.
+ARG=("61 2 79 40 22 3 16 37 59 5 73 24 91 1 65 34 98 50 63 17 68 80 82 49 81 72 36 54 56 47 26 86 18 51 19 20 96 99 43 27 57 45 15 48 41 77 6 93 92 89 25 66 53 21 100 76 95 32 75 33 35 13 78 84 23 11 55 10 97 52 64 4 94 90 14 83 42 31 71 62 12 8 60 44 85 46 29 30 38 87 88 58 28 69 74 70 67 7 39 9"); ./push-swap "$ARG"| ./checker "$ARG"
